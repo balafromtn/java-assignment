@@ -1,4 +1,4 @@
-//Program to print the largest of the three numbers
+//1. Program to print the largest of the three numbers.
 
 import java.util.Scanner;
 
