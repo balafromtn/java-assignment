@@ -9,11 +9,11 @@ public static void main(String args[])
   Scanner scan = new Scanner(System.in);
   
   System.out.println("========= Program to Check Prime Number =========\n");
-  System.out.println("Enter the number: ");
+  System.out.print("Enter the number: ");
   int num = scan.nextInt();
 
-  int flag = 0;
-  if(num==0 || num==1)
+  int flag = 1;
+  if(num<=1)
   {
     flag = 0;
   }
@@ -24,6 +24,7 @@ public static void main(String args[])
         if (num%i==0) 
         {
             flag = 0;
+            System.out.println(i);
             break;
         }
     }

@@ -11,4 +11,4 @@ class CelsiusToFahrenheit
   double Fahrenheit = (Celsius*(9/5.0))+32;
   System.out.println(Celsius+" °C is Equals to "+Fahrenheit+" °F");
  }
-}
+} 
